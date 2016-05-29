@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServerRegions>
+  <Facet name="Felucca"> 
+	  <!-- Interne -->
+    <region name="Creation" type="ZoneCreation">
+      <rect x="5983" y="65" width="71" height="67" />
+    </region>    
+	 <region name="Jail" type="Jail">
+      <rect x="6048" y="163" width="8" height="11" />
+      <rect x="6062" y="181" width="8" height="12" />
+      <rect x="6032" y="187" width="9" height="14" />
+    </region>
+	 <region name="AuDela" type="ZoneMort">
+      <rect x="5915" y="79" width="30" height="65" />
+    </region>
+	<!-- Map principale -->
+	<!-- <region name="Archipel d'Elkoss" type="Archipel">
+		<rect x="8" y="8" width="3993" height="4080" />
+	</region> -->
+	<region name="Ile d'Hurlevent" type="IleHurlevent" priority="0">
+		<rect x="1500" y="1080" width="1500" height="1595" />
+	</region>
+	<region name="Ville d'Hurlevent" type="VilleHurlevent" priority="50">
+		<rect x="1620" y="1163" width="258" height="252" />
+		<rect x="1720" y="1129" width="70"  height="35"  />
+		<rect x="4626" y="116"  width="57"  height="45"  />
+		<rect x="4218" y="228"  width="22"  height="20"  />
+		<rect x="4085" y="219"  width="52"  height="34"  />
+	  <!-- Note: Il manque des rectangles avant la riviere et au port
+	  <rect x="1832" y="1415" width="24" height="9" /> 
+	  -->
+	</region>
+	<region name="Marché d'Hurlevent" type="MarcheHurlevent" priority="100">
+		<rect x="1802" y="1310" width="39" height="25" />
+<!--		<rect x="1798" y="1318" width="28" height="30" />
+		<rect x="1826" y="1318" width="6"  height="8"  />
+		<rect x="1832" y="1318" width="8"  height="3"  />
+		<rect x="1802" y="1310" width="38" height="8"  /> -->
+	</region>
+  </Facet>
+</ServerRegions>
